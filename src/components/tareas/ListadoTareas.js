@@ -56,6 +56,7 @@ const Listadotarea = () => {
          className="btn btn-eliminar"
          onClick={onClickEliminar}
         >Eliminar Proyecto &times;</button>
+        <p></p>
         </Fragment>
      );
 }
