@@ -75,7 +75,7 @@ const AuthState = props =>{
     }
 
     // Cuando el usuario inicia sesión 
-    const iniciarSession = async datos =>{
+    const iniciarSesion = async datos =>{
         try{
             const respuesta = await clienteAxios.post('/api/auth',datos);
             dispatch({
@@ -118,7 +118,7 @@ const AuthState = props =>{
              mensaje: state.mensaje,
              cargando: state.cargando,
              registrarUsuario,
-             iniciarSession,
+             iniciarSesion,
              usuarioAutenticado,
              cerrarSesion
          }}
