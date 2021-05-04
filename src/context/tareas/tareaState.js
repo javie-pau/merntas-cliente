@@ -119,7 +119,8 @@ const TareaState = props =>{
         <tareaContext.Provider
            value={{
                tareasproyecto: state.tareasproyecto,
-               errortarea: state.errortarea,
+               errortarea: state.errortarea,          
+// eslint-disable-next-line
                tareaSeleccionada: state. tareaSeleccionada,
                obtenerTareas,
                agregarTarea,

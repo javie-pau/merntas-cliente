@@ -7,6 +7,7 @@ import {TAREAS_PROYECTO,
         ACTUALIZAR_TAREA,
         LIMPIAR_TAREA} from '../../types/index';
 
+// eslint-disable-next-line
 export default (state, action) =>{
     switch(action.type){
         case TAREAS_PROYECTO:
@@ -42,6 +43,7 @@ export default (state, action) =>{
             }
         case LIMPIAR_TAREA:
             return{
+// eslint-disable-next-line
                 ... state,
                 tareaSeleccionada: null
             }

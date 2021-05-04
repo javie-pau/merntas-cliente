@@ -6,6 +6,7 @@ import{FORMULARIO_PROYECTO,
        ELIMINAR_PROYECTO,
        PROYECTO_ERROR} from '../../types/index';
 
+// eslint-disable-next-line
 export default (state, action)=>{
     switch(action.type){
         case FORMULARIO_PROYECTO:
